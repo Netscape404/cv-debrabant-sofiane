@@ -323,26 +323,3 @@ a:hover {
     display: none;
   }
 }
-
-
-/* Animation */
-
-.line-1 {
-  position: relative;
-  margin: 0 auto;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.anim-typewriter {
-  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 24em;
-  }
-}
