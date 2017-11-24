@@ -84,8 +84,6 @@ main h2 {
 }
 
 footer {
-  border-top: solid 2px #14fdce;
-  margin-top: 15px;
   text-align: center;
   font-weight: bold;
   padding: 10px 0;
@@ -199,6 +197,15 @@ a:hover {
   pointer-events: auto;
   text-shadow: 0rem 0.2rem 1rem #0c7b46;
   z-index: -1;
+}
+
+.phone {
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.number {
+  font-weight: normal;
 }
 
 @-webkit-keyframes crt-output {
